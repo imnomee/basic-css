@@ -1,11 +1,9 @@
+/* TYPE SELECTORS */
+
 body {
     color: #878787;
     margin: 0;
 }
-.main-header {
-    background-color: orange;
-}
-
 h1 {
     font-size: 90px;
     color: white;
@@ -20,15 +18,46 @@ h3 {
     color: #48525c;
 }
 
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+a:active {
+    color: lightcoral;
+}
+
+:focus {
+    color: white;
+    background-color: orange;
+}
+
+/* CLASS SELECTORS */
+.main-header {
+    background-color: orange;
+}
+
+.title {
+    color: white;
+    font-size: 26px;
+}
+
 .primary-content {
     text-align: center;
 }
 
-.secondary-content {
+.t-border {
     border-top: 2px solid lightgray;
-    
 }
 
+/* ID SELECTORS */
 #main-footer {
     padding-top: 60px;
     padding-bottom: 60px;
